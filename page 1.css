@@ -28,7 +28,7 @@ body {
 .line1{
     border-left: 3px solid rgb(255, 255, 255);
     height: 70px;
-    margin-left: 1400px;
+    margin-left: 1300px;
     margin-top:-50px;
     position: fixed;
 }
@@ -39,7 +39,7 @@ body {
     border:1px solid rgb(255, 255, 255);
     border-radius:50%;
     background-color: #ffffff;
-    margin-left: 1385px;
+    margin-left: 1285px;
     margin-top: 20px;
     position: fixed;
 }

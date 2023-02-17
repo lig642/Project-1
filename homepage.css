@@ -4,14 +4,14 @@
     font-style: normal;
     font-family: yuji;
     margin-left: 150px;
-    margin-top: -280px;
+    margin-top: -310px;
   }
 
   h2{
     color:white;
     font-size:100px;
     font-family: yuji;
-    margin-top: 110px;
+    margin-top: 150px;
     margin-left: 500px;
   }
 
@@ -20,7 +20,7 @@
     font-size:100px;
     font-family: yuji;
     margin-left: 850px;
-    margin-top: -600px;
+    margin-top: -630px;
   }
 
   h4{
@@ -34,7 +34,7 @@
 
   .line1 {
     border-left: 3px solid rgb(255, 255, 255);
-    height:320px;
+    height:450px;
     margin-left: 200px;
     margin-top:-100px;
    }
@@ -42,10 +42,9 @@
   
  .line2 {
     border-left: 3px solid rgb(255, 255, 255);
-    height: 500px;
+    height: 700px;
     margin-left:550px;
-    margin-top:-240px;
-    position: relative;
+    margin-top:-400px;
   }
 
   .line3{
@@ -53,14 +52,13 @@
     height: 270px;
     margin-left: 900px;
     margin-top:-700px;
-    position: relative;
   }
 
   .line4{
     border-left: 3px solid rgb(255, 255, 255);
-    height: 380px;
+    height: 450px;
     margin-left: 1230px;
-    margin-top:-200px;
+    margin-top:-270px;
   }
   
   a{

@@ -1,0 +1,84 @@
+ h1{
+    color:rgb(255, 255, 255);
+    font-size: 100px;
+    font-style: normal;
+    font-family: yuji;
+    margin-left: 150px;
+    margin-top: -320px;
+  }
+
+  h2{
+    color:white;
+    font-size:100px;
+    font-family: yuji;
+    margin-top: 150px;
+    margin-left: 500px;
+  }
+
+  h3{
+    color:white;
+    font-size:100px;
+    font-family: yuji;
+    margin-left: 850px;
+    margin-top: -600px;
+  }
+
+  h4{
+    color:white;
+    font-size:100px;
+    font-family:yu;
+    margin-left:1180px;
+    margin-top: -70px;
+  }
+
+  
+  .line1::before,
+  .line1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-left: 3px solid rgb(255, 254, 254);
+  }
+  
+  .line1::before {
+    left: 10px;
+    height:300px;
+    margin-left: 200px;
+    margin-top:0.px;
+   }
+  
+  .line1::after {
+    right: 100px;
+    height: 400px;
+    margin-right: 100px;
+ }
+  
+ .line2 {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 600px;
+    margin-left:550px;
+    margin-top:-10px;
+  }
+
+  .line3{
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 270px;
+    margin-left: 900px;
+    margin-top:-700px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  @font-face {
+    font-family:yuji ;
+    src: url(YujiSyuku-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:yu ;
+    src: url(YujiBoku-Regular.ttf);
+  }
+  

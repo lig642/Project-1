@@ -8,7 +8,7 @@ color: white; text-shadow: black 0.1em 0.1em 0.1em;
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 180vh;
     color: #fff;
     background: linear-gradient(-45deg, #ffffff, #b0b0b0, #414141, #000000);
     background-size: 400% 400%;
@@ -32,17 +32,30 @@ body {
     margin-top:-50px;
     position: fixed;
 }
+.word2{
+    font-size: 50px;
+    font-family: han;
+    margin-top: -425px;
+    color: #ffffff;
+    margin-left: 690px;
+    -webkit-text-stroke: 0.5px #ffffff;
 
+}
 .square{
     width: 30px;
     height:30px;
     border:1px solid rgb(255, 255, 255);
     border-radius:50%;
     background-color: #ffffff;
-    margin-left: 1285px;
+    margin-left: 1286px;
     margin-top: 20px;
     position: fixed;
 }
+
+a{
+    text-decoration: none;
+}
+
 
 @font-face {
     font-family:han ;

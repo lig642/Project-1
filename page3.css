@@ -1,0 +1,75 @@
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: black;
+}
+
+.word{
+    color:rgb(254, 254, 254);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 5%;
+}
+
+.square{
+        width: 30px;
+        height:30px;
+        border:1px solid rgb(255, 255, 255);
+        border-radius:50%;
+        background-color: #ffffff;
+        margin-left:1370px;
+        margin-top: -300px;
+        position: fixed;
+}
+
+.line1{
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 100px;
+    margin-left: 1350px;
+    margin-top:-700px;
+    position: fixed;
+}
+
+.shining {
+  font-size: 100em;
+  font-family: han;
+  position: fixed;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, black 0%, white 50%, black 100%);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-animation: shining 3s linear infinite;
+          animation: shining 3s linear infinite;
+}
+
+@-webkit-keyframes shining {
+  from {
+    background-position: -500%;
+  }
+  to {
+    background-position: 500%;
+  }
+}
+
+@keyframes shining {
+  from {
+    background-position: -500%;
+  }
+  to {
+    background-position: 500%;
+  }
+}
+
+
+@font-face {
+    font-family:han ;
+    src: url(HanyiSentyScholar.ttf);
+  }
